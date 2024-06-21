@@ -1,40 +1,40 @@
 package org.example.managestudents.entity;
 
 public class Students {
-    private String studentCode;
-    private String studentName;
-    private String studentPhone;
-    private String studentEmail;
+    private String code;
+    private String fullName;
+    private String phone;
+    private String email;
 
-    public String getStudentCode() {
-        return studentCode;
+    public String getCode() {
+        return code;
     }
 
-    public void setStudentCode(String studentCode) {
-        this.studentCode = studentCode;
+    public void setCode(String code) {
+        this.code = code;
     }
 
-    public String getStudentName() {
-        return studentName;
+    public String getFullName() {
+        return fullName;
     }
 
-    public void setStudentName(String studentName) {
-        this.studentName = studentName;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
 
-    public String getStudentPhone() {
-        return studentPhone;
+    public String getPhone() {
+        return phone;
     }
 
-    public void setStudentPhone(String studentPhone) {
-        this.studentPhone = studentPhone;
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
 
-    public String getStudentEmail() {
-        return studentEmail;
+    public String getEmail() {
+        return email;
     }
 
-    public void setStudentEmail(String studentEmail) {
-        this.studentEmail = studentEmail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

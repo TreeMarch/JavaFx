@@ -16,13 +16,14 @@ public class studentForm {
 
     public void doSomething(ActionEvent actionEvent) {
         Students students = new Students();
-        students.setStudentCode(studentCode.getText());
-        students.setStudentName(studentName.getText());
-        students.setStudentPhone(studentPhone.getText());
-        students.setStudentEmail(studentEmail.getText());
+        students.setCode(studentCode.getText());
+        students.setFullName(studentName.getText());
+        students.setPhone(studentPhone.getText());
+        students.setEmail(studentEmail.getText());
         studentRepository.save(students);
         studentRepository.update(students);
         studentRepository.delete(students);
+        studentCode.clear();
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Action Successful");
         alert.setHeaderText("Action Saved!!!");
